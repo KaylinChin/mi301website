@@ -71,7 +71,6 @@ p {
 }
 
 .container {
-    overflow-y: auto;
     width: 300px;
 }
 
