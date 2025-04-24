@@ -72,7 +72,6 @@ p {
 
 .container {
     overflow-y: auto;
-    width: 500px;
     gap: 25px;
 }
 
@@ -82,7 +81,6 @@ p {
     padding: 20px; 
     border-radius: 20px;
     color: #fff;
-    width: 500px;
 }
 
 .detailsbox {
