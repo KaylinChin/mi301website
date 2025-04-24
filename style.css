@@ -72,7 +72,6 @@ p {
 
 .container {
     overflow-y: auto;
-    gap: 25px;
 }
 
 .box {
