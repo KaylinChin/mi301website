@@ -39,10 +39,56 @@ p {
     border-radius: 25px;
 }
 
+#row {
+    border-top: 1px dotted #ccc;
+    display: flex;
+    gap: 25px;
+    border-radius: 25px;
+    flex-direction: row;
+    align-content: center;
+}
+
+.some-page-wrapper {
+    margin: 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
 .blog-post {
     border-bottom: 1px dotted #ccc;
 }
 
+.container {
+    overflow-y: auto;
+}
+
+.box {
+    background-color: #235347;
+    margin: 10px auto;
+    padding: 20px; 
+    border-radius: 20px;
+    color: #fff;
+}
+
+.detailsbox {
+    overflow: hidden;
+    line-height: 1.5;
+    padding: 20px 0px;
+    position: relative;
+    color:#fff;
+}
 
 /* a mulit-column form layout using flexbox (on about page)*/
 main {
@@ -103,7 +149,7 @@ main {
 .stickynav {
     position: sticky;
     top: 0;
-    background: rgb(179, 211, 179);
+    background: #8eb69b;
     border-radius: 25px;
     padding: 5px;
     margin: auto;
