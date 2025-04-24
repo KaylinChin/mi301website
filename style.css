@@ -1,0 +1,113 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: 242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: larger;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: larger;
+    text-decoration: underline;
+}
+
+p {
+    line-height: 2em;
+}
+
+/* added a two column flexbox layout (on index.html) */
+
+#blog {
+    border-top: 1px dotted #ccc;
+    display: flex;
+    gap: 25px;
+    border-radius: 25px;
+}
+
+.blog-post {
+    border-bottom: 1px dotted #ccc;
+}
+
+.table {
+    background-color: rgb(179, 211, 179);
+    text-align: center;
+}
+
+/* a mulit-column form layout using flexbox (on about page)*/
+main {
+    font-family:'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: 242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+    gap: 25px;
+    border-radius: 25px;
+    justify-content: center;
+    margin: 25px;
+    line-height: 2em;
+}
+
+
+.about-paragraph-1 {
+    display: flex;
+    gap: 25px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.about-background {
+    display: flex;
+    gap: 25px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.about-interests {
+    display: flex;
+    gap: 25px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.interests-list{
+    display: flex;
+    gap: 25px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/* adding floated photo + caption */
+.floater {
+    float: right;
+    width: 125px;
+    background-color: #ccc;
+    padding: 25px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #242424;
+}
+
+/* adding sticky header*/
+.stickynav {
+    position: sticky;
+    top: 0;
+    background: rgb(179, 211, 179);
+    border-radius: 25px;
+    padding: 5px;
+    margin: auto;
+}
